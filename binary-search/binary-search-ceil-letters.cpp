@@ -16,6 +16,6 @@ int binarySearchCeil(char* arr, int start, int end, int target){
 
 int main(){
     char arr[]={'a','b','c','e','i','z'};
-    int pos = binarySearchCeil(arr,0,5,'e');
+    int pos = binarySearchCeil(arr,0,5,'e ');
     cout << pos << endl;
 }
