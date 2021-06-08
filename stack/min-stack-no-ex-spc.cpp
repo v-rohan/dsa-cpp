@@ -12,6 +12,7 @@ int getMin()
 }
 int pop()
 {
+    if(s.empty()) return -1;
     if (s.top() < minElem)
         minElem = 2 * minElem - s.top();
     s.pop();
@@ -29,6 +30,8 @@ int push(int num)
         s.push((2 * num) - minElem);
         minElem = num;
     }
+    else if (num >= minElem)
+        s.push(num);
 }
 int main()
 {

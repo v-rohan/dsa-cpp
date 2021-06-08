@@ -3,7 +3,7 @@ using namespace std;
 
 int main()
 {
-    int arr[] = {3, 0, 0, 2, 0, 4};
+    int arr[] = {0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1};
     int size = sizeof(arr) / sizeof(arr[0]);
     vector<int> right;
     vector<int> left;
